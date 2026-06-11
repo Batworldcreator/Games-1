@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+    overflow: hidden;
+    /* Evita que la pantalla se mueva o haga zoom al tocarla */
+    touch-action: none; 
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+canvas {
+    background-color: #557a2b;
+    display: block;
+    width: 100vw;
+    height: 100vh;
+}
